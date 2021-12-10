@@ -54,3 +54,6 @@ public class Log4jRCE {
 
 ③项⽬中创建log4j2.component.properties⽂件，⽂件中增加配置`log4j2.formatMsgNoLookups=true`
 ![](https://raw.githubusercontent.com/crkmythical/PicGo/main/images/20211210152139.png)
+
+- 限制受影响应用对外访问互联网
+- WAF添加漏洞攻击代码临时拦截规则。
